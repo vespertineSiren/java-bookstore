@@ -35,3 +35,8 @@ INSERT INTO wrote (bookid, authorid) VALUES (3, 2);
 INSERT INTO wrote (bookid, authorid) VALUES (4, 5);
 INSERT INTO wrote (bookid, authorid) VALUES (4, 3);
 INSERT INTO wrote (bookid, authorid) VALUES (5, 4);
+
+INSERT INTO user (id, role, username, password) VALUES ('1', 'data', 'Frida', 'dpassword');
+INSERT INTO user (id, role, username, password) VALUES ('2', 'mgr', 'Alita', 'mpassword');
+INSERT INTO user (id, role, username, password) VALUES ('3', 'user', 'Conchita', 'upassword');
+

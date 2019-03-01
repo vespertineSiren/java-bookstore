@@ -1,9 +1,7 @@
 package dev.vespertine.javabookstore.Controller;
 
 import dev.vespertine.javabookstore.Models.Book;
-import dev.vespertine.javabookstore.Repository.AuthorRepository;
 import dev.vespertine.javabookstore.Repository.BookRepository;
-import dev.vespertine.javabookstore.Repository.SectionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

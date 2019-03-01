@@ -14,7 +14,7 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long authorid;
 
-    private String lastname, firstname;
+    private String fname, lname;
 
     @ManyToMany(mappedBy = "authors")
     @JsonIgnoreProperties("authors")
@@ -28,20 +28,20 @@ public class Author {
         this.authorid = authorid;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLname() {
+        return lname;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLname(String lname) {
+        this.lname = lname;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getFname() {
+        return fname;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setFname(String fname) {
+        this.fname = fname;
     }
 
     public Set<Book> getBooks() {

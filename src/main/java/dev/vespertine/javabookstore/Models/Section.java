@@ -13,7 +13,7 @@ public class Section {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
-    private long section;
+    private long sectionid;
 
     private String name;
 
@@ -24,11 +24,11 @@ public class Section {
     private Set<Book> books = new HashSet<>();
 
     public long getSection() {
-        return section;
+        return sectionid;
     }
 
     public void setSection(long section) {
-        this.section = section;
+        this.sectionid = section;
     }
 
     public String getName() {

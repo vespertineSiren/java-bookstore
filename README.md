@@ -17,8 +17,8 @@ Create a REST API server to store and read data from a MySQL Database. The table
   
 * authors
   * authorid - long primary key
-  * lastname - String last name of the author
-  * firstname - String first name of the author
+  * lname - String last name of the author
+  * fname - String first name of the author
 
 There is a many to many relationship between authors and books. A book may have many authors while an author may write many books.
 

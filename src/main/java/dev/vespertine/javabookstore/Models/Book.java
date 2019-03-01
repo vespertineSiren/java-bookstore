@@ -26,7 +26,7 @@ public class Book {
     private Set<Author> authors = new HashSet<>();
 
     @ManyToOne
-    @JoinColumn(name = "section")
+    @JoinColumn(name = "sectionid")
     @JsonIgnoreProperties("books")
     private Section section;
 
